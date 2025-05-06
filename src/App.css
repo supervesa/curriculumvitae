@@ -21,7 +21,7 @@
 .cv-container {
   max-width: 100% !important;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 0.2rem;
   font-family: var(--font-sans);
   color: var(--off-black);
   
@@ -31,9 +31,8 @@
 
 section {
   margin-bottom: 1rem;
-  padding: 0.8rem;
-  border-radius: 4px;
-  border: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 0.2rem;
+  border-radius: 12px;
 }
 
 .error {
