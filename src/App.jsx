@@ -21,6 +21,7 @@ export default function App() {
 
   return (
     <>
+
       <div className="cv-container">
         <Header
           name={cvData.name} // Korjattu: data → cvData
