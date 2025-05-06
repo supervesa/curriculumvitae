@@ -1,0 +1,317 @@
+#root {
+  max-width: 80%;
+  background-color: var(--light-buff);
+  margin: 0 auto;
+  border-radius: 12px;
+}
+
+/* ========= GLOBAL STYLES ========= */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
+:root {
+    --off-black: #333333;
+    --off-white: #F6F6ED;
+    --primary-color: #2c3e50;
+    --secondary-color: #f2f4f5;
+    --light-buff: #F0EADC;
+    --cloud-white: #F2F1E6;
+    --background-light: #fafaf0;
+    --background-medium: #f0f0f0;
+    --background-lighter: #f5f5e6;
+    --warm-gray-1: #ede8e1;
+    --warm-grey-2: #dcd6cf;
+    --stone-grey: #ccc5b9;
+    --greige: #beb7a4;
+    --accent-orange: #ff8c00;
+    --accent-turquoise: #40e0d0;
+    --harmaa: #ede8e1;
+  
+    /* --- Font Families --- */
+  --font-sans: 'Nunito Sans', sans-serif;
+  --font-serif-primary: 'Source Serif 4', serif;
+  --font-serif-secondary: 'EB Garamond', serif;
+
+  /* --- Font Sizes --- */
+  --fs-h1: 2.5rem;
+  --fs-h2: 2rem;
+  --fs-h3: 1.2rem;
+  --fs-h4: 1.0rem;
+  --fs-base: 1rem;
+  --fs-small: 0.8rem;
+}
+
+h1 {
+font-family: var(--font-serif-primary);
+font-size: var(--fs-h1);
+color: var(--off-black);
+
+}
+
+h2 {
+  font-family: var(--font-serif-secondary);
+  font-size: var(--fs-h3);
+  color: var(--off-black);
+  }
+  
+p {
+  font-family: var(--font-sans);
+  font-size: var(--fs-base);
+  color: var(--off-black);
+  line-height: 1.5;
+
+}
+
+.small-caption {
+  font-size: var(----fs-small);
+  color: var(--accent-orange);
+  font-style: italic;
+}
+
+
+.organization-line {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.organization {
+  margin: 0 !important;
+}
+
+.tag-one {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: var(--primary-color);
+  color: var(--accent-turquoise);
+  padding: 0.25rem 0.75rem;
+  border-radius: 15px;
+  font-size: 0.8em;
+  font-weight: 500;
+}
+
+.tag-two {
+  background: var(--primary-color);
+  color: var(--accent-turquoise);
+  padding: 0.25rem 0.75rem;
+  border-radius: 15px;
+  font-size: 0.8em;
+  font-weight: 500;
+}
+
+.external-link-icon {
+  vertical-align: middle;
+  margin-left: 0.25rem;
+  color: var(--link-icon-color, currentColor);
+  width: 1.25rem;  /* noin 20px */
+  height: 1.25rem;
+}
+
+@media (max-width: 768px) {
+  .tag-one {
+    top: 0.5rem;
+    right: 0.5rem;
+  }
+}
+
+.toggle-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.toggle-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 0.85rem;
+  text-align: center;
+  transition: all 0.2s ease;
+  font-family: var(--font-sans);
+  color: var(--accent-orange);
+  background-color: var(--off-white);
+  height: 2.5rem;
+  width: 50%;
+  border-radius: 12px;
+}
+
+.toggle-link:hover {
+background-color: var(--harmaa);
+}
+
+.toggle-link.active {
+  background-color: var(--harmaa);
+  
+}
+
+.toggle-icon {
+  transition: transform 0.3s ease;
+}
+
+.toggle-icon.expanded {
+  transform: rotate(180deg);
+}
+
+
+.toggle-header-content {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.toggle-icon {
+  transition: transform 0.3s ease;
+  flex-shrink: 0;
+}
+
+.toggle-icon.expanded {
+  transform: rotate(180deg);
+}
+
+.toggle-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Jos haluat kääntää kuvakkeen ja tekstin järjestyksen */
+.toggle-header-content {
+  flex-direction: row-reverse;
+}
+
+/* Tai jos haluat kuvakkeen oikealle puolelle */
+.toggle-header-content {
+  justify-content: space-between;
+}
+
+.toggle-content {
+  display: flex;
+  align-items: center; /* Keskitä pystysuunnassa */
+  justify-content: center; /* Keskitä vaakasuunnassa */
+  gap: 8px;
+}
+
+.toggle-icon {
+  flex-shrink: 0;
+  position: relative;
+  top: 1px; /* Hienosäätö kuvakkeen sijaintiin */
+}
+
+.toggle-link span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+svg {
+  vertical-align: middle;
+}
+
+/* ========= EXTERNAL LINK ICON STYLES ========= */
+
+
+.link-icon {
+  width: 1rem;  /* noin 20px */
+  height: 1rem;
+  margin-left: 2px;
+  transition: color 0.2s;
+}
+
+.link-icon:hover {
+  color: var(--accent-orange);
+  transform: translate(1px, -1px);
+  animation: linkArrow 0.6s ease infinite; /* Aseta animaatio hover-tilassa */
+}
+
+@keyframes linkArrow {
+  0% { transform: translateX(0); }
+  50% { transform: translateX(2px); }
+  100% { transform: translateX(0); }
+}
+
+
+
+/* CV-säiliön perustyylit */
+.cv-container {
+
+  border-radius: 12px;
+  padding: 2.5rem;
+  margin-top: 2rem;
+}
+
+/* Otsikon tyylit */
+.header {
+  text-align: left;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 1.5rem;
+}
+
+/* Yhteystietojen tyylit */
+.contact-info {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.contact-info p {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #5a6a7e;
+  margin: 0;
+}
+
+/* Osioiden yhteistyylit */
+section {
+  text-align: left;
+  margin: 0 1rem;
+}
+
+
+
+/* Kaavioiden säiliö */
+.chart-container {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  margin-top: 1rem;
+}
+
+/* Responsiivisuus */
+@media (max-width: 768px) {
+  .cv-container {
+    padding: 1.5rem;
+  }
+  
+  .contact-info {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .header h1 {
+    font-size: 2rem;
+  }
+}
+
+/* Animointi */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+section {
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+section:nth-child(2) { animation-delay: 0.1s; }
+section:nth-child(3) { animation-delay: 0.2s; }
+section:nth-child(4) { animation-delay: 0.3s; }

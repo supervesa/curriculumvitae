@@ -1,0 +1,592 @@
+ 
+    {
+  "name": "Vesa Nessling",
+  "contact": {
+      "address": "",
+      "phone": "0400 688362",
+      "email": "vesa.nessling@gmail.com"
+  },
+
+  "profile": [
+    "Olen Vesa Nessling, kokenut markkinoinnin ja viestinnän asiantuntija, jolla on vahva tausta graafisessa suunnittelussa ja projektinhallinnassa. Hallitsen digitaalisten ja perinteisten markkinointikanavien käytön, luon vaikuttavia visuaalisia ilmeitä ja johdan projekteja itseohjautuvasti. Olen myös taitava vuorovaikuttaja ja tiimipelaaja, joka suoriutuu erinomaisesti asiakaskontakteista."
+  ],
+
+  "description1": [
+    "Vesa Nessling"
+  ],
+  "description2": [
+    "Olen Vesa Nessling, kokenut markkinoinnin ja viestinnän asiantuntija, jolla on vahva tausta graafisessa suunnittelussa ja projektinhallinnassa. Hallitsen digitaalisten ja perinteisten markkinointikanavien käytön, luon vaikuttavia visuaalisia ilmeitä ja johdan projekteja itseohjautuvasti. Olen myös taitava vuorovaikuttaja ja tiimipelaaja, joka suoriutuu erinomaisesti asiakaskontakteista."
+    
+  ],
+
+  "profiili-kuva": [
+    "/img/profiili.png"
+  ],
+
+  "picture1": [
+     "/img/pic.jpg"
+  ],
+  "picture2": [
+    "/img/pic2.png"
+ ],
+ "picture3": [
+  ""
+],
+  
+    "work_experience": [
+        {
+            "title": "Asiantuntija",
+            "company": "Etelä-Savon työllisyyspalvelut",
+            "dates": "19.2.2024 - 31.12.2024",
+            "type":"Määräaikainen",
+            "tag":["julkinen", "hallinto", "työllisyyspalvelut", "asiakaspalvelu"],
+            "responsibilities": "Vaativa asiakaspalvelutyö kasvotusten ja puhelimitse. Asiakkaiden tukeminen ja neuvonta asiakasrajapinnassa. Autoin asiakasta kehittämään työnhakutaitoja ja valitsemaan asiakkaalle sopivan työvoimakoulutuksen tai tutkintoon johtavan koulutuksen. Laadin ja päivitin työllistymissuunnitelmia. Ylläpidin asiakastietoja.",
+            "duties": [
+              "Te-toimiston työnvälityksen asiatuntijan monipuoliset työtehtävät, joihin kuulunut mm. asiakkaan palvelutarpeen tunnistamista ja arviointia, palveluihin ohjaamista ja työnvälitystä. Tehtävä on edellyttänyt hyviä asiakapalvelu ja alueen työmarkkinanoiden tuntemusta. "
+            ],
+            "evaluation": "Vesa Nessling on suoriutunut kaikista hänelle osoitetuista työtehtävistä kiitettävästi osoittaen kykyä omaksua nopeasti uusia asioita, hyviä asiakaspalvelu- ja työyhteisötaitoja. ",
+            "omistaja": "Sari Torniainen, Esimies, Etelä-Savon työllisyyspalvelut",
+
+            "full_recommendation": [
+                "Suosituskirje Olen ilolla kirjoittamassa suosituskirjettä Vesa Nesslingistä, joka on palvellut tässä yksikössä tehokkaasti ja omistautuneesti. Vesa on osoittanut korkeaa ammattitaitoa ja sitoutumista tehtäviinsä. Vesan työskentely on ollut tehokasta ja tarkkaa, erityisesti hänen vastuullaan olleissa tutkintaan liittyvissä tehtävissä, kuten päätösten arkistoinnissa, asiakirjatilausten käsittelyssä ja tutkintapöytäkirjojen koostamisessa. Hän on suoriutunut monimutkaisista tehtävistä huolellisesti, ja hänen organisointitaitonsa ja itsenäinen työote ovat tuoneet merkittävän lisäarvon tiimillemme. Erityisesti haluaisin painottaa Vesan vahvaa tietoteknistä osaamista, joka on ollut olennainen osa hänen työskentelyään. Hän on taitava nykyaikaisten työkalujen ja järjestelmien käyttäjä, ja hänen nopea sopeutumisensa uusiin teknologioihin on ollut vaikuttavaa. Lisäksi Vesa on osoittanut erinomaisia viestintä- ja vuorovaikutustaitoja, mikä on vahvistanut tiimityöskentelyämme. Hänen valmiutensa ottaa lisävastuuta ja osallistua aktiivisesti yhteisiin tavoitteisiin on erityisen arvostettavaa. Kahvitauoilla Vesa tuo iloa tiimimme keskuuteen keskustelemalla innokkaasti koirista, matkustamisesta ja ruoanlaitosta. Kokonaisuutena, Vesa Nessling on ollut erinomainen lisä rikosyksikkömme tiimiin, ja minulla ei ole epäröintiä suositella häntä lämpimästi. Ystävällisin terveisin, Markku Kärpänen"
+              ],
+              
+            "quotes": [
+              {
+                "sitaatti": "Vesa Nessling on suoriutunut kaikista hänelle osoitetuista työtehtävistä kiitettävästi osoittaen kykyä omaksua nopeasti uusia asioita, hyviä asiakaspalvelu- ja työyhteisötaitoja. ",
+                "omistaja": "Sari Torniainen, Esimies, Etelä-Savon työllisyyspalvelut",
+                "tagit": ["tiimityö", "asiakaspalvelu"]
+              }
+            ],
+            
+            "suosittelija": [
+              {
+                "nimi":"Sari Torniainen",
+                "puhelinnumero": "040 7670593",
+                "sähköposti":"sari.torniainen@mikkeli.fi"
+
+              }
+
+            ]
+          },
+        {
+            "title": "Tutkintasihteeri",
+            "company": "Itä-Suomen poliisilaitos",
+            "dates": "17.7.2023 - 16.12.2023",
+            "type":"Määräaikainen",
+            "tag":["julkinen", "hallinto", "poliisi", "asiakaspalvelu","tutkinta", "tutkintasihteeri"],
+            "responsibilities": "Koostin tutkintapöytäkirjoja ja tein tutkinnan avuksi selvityksiä sekä excel-taulukkoja. Käsittelin asiakirjatilauksia muun muassa vakuutusyhtiöille, käräjäoikeudelle ja syyttäjälle. Vastasin päätösten arkistoinnista ja postittamisesta asianomaisille.",
+            "duties": [
+                "Erilaiset rikos- ja poliisitutkintaa tukevat ja alustavat tehtävät, asiakaspalvelutehtävät, esitutkintapöytäkirjojen käsittely- ja arkistointitehtävät, erilaiset lausuntoihin ja päätöksiin liittyvät valmistelutehtävät sekä erikseen sovittavalla tavalla koko poliisilaitoksen tai toiminta-alueen poliisiasemien yhteisiä tehtäviä, muut esihenkilön määräämät tehtävät"
+              ],
+              "evaluation": "Vesa on osoittanut korkeaa ammattitaitoa ja sitoutumista tehtäviinsä. Vesan työskentely on ollut tehokasta ja tarkkaa, erityisesti hänen vastuullaan olleissa tutkintaan liittyvissä tehtävissä, kuten päätösten arkistoinnissa, asiakirjatilausten käsittelyssä ja tutkintapöytäkirjojen koostamisessa. Hän on suoriutunut monimutkaisista tehtävistä huolellisesti,ja hänen organisointitaitonsa ja itsenäinen työote ovat tuoneet merkittävän lisäarvon tiimillemme.",
+              "omistaja": "Markku Kärpänen, Esimies, Rikoskomisario, Itä-Suomen poliisilaitos",
+              "quotes": [
+                {
+                  "sitaatti": "Erityisesti haluaisin painottaa Vesan vahvaa tietoteknistä osaamista, joka on ollut olennainen osa hänen työskentelyään. Hän on taitava nykyaikaisten työkalujen ja järjestelmien käyttäjä, ja hänen nopea sopeutumisensa uusiin teknologioihin on ollut vaikuttavaa. ",
+                  "omistaja": "Markku Kärpänen, Esimies, Rikoskomisario, Itä-Suomen poliisilaitos",
+                  "tagit": ["tiimityö", "asiakaspalvelu", "tietotekniikka"]
+                },
+                {
+                    "sitaatti": "Lisäksi Vesa on osoittanut erinomaisia viestintä- ja vuorovaikutustaitoja, mikä on vahvistanut tiimityöskentelyämme. Hänen valmiutensa ottaa lisävastuuta ja osallistua aktiivisesti yhteisiin tavoitteisiin on erityisen arvostettavaa.",
+                    "omistaja": "Markku Kärpänen, Esimies, Rikoskomisario, Itä-Suomen poliisilaitos",
+                    "tagit": ["tiimityö", "asiakaspalvelu", "vuorovaikutustaidot"]
+                  },
+                  {
+                    "sitaatti": "Kahvitauoilla Vesa tuo iloa tiimimme keskuuteen keskustelemalla innokkaasti koirista, matkustamisesta ja ruoanlaitosta.",
+                    "omistaja": "Markku Kärpänen, Esimies, Rikoskomisario, Itä-Suomen poliisilaitos",
+                    "tagit": ["tiimityö", "huumori"]
+                  }
+              ],
+              "suosittelija": [
+                {
+                  "nimi":"Markku Kärpänen",
+                  "puhelinnumero": "",
+                  "sähköposti":"markku.karpanen@poliisi.fi"
+  
+                }
+  
+              ]
+            },
+        {
+            "title": "Kampanjakoordinaattori",
+            "company": "Kaakkois-Suomen vihreät ry",
+            "dates": "1.11.2022 - 30.4.2023",
+            "type":"Määräaikainen",
+            "tag":["järjestö", "kampanjakoordinaattori", "markkinointi", "graafikko", "koordinointi"],
+            "responsibilities": "Tuotin digitaalista ja painettua materiaalia yhteistyössä ehdokkaiden, yhdistysten ja piirin kanssa heidän toivomustensa mukaisesti. Tuin ehdokashankintaa viestinnän keinoin ja osallistuin kampanjan suunnitteluun ja toteutukseen, varmistaen ehdokkaiden tarvitsemat resurssit ja tuen.",
+
+            "duties": [
+                "Kampanjan toteuttaminen toiminnanjohtajan työparina, piirin vaalitapahtumien järjestäminen, ehdokkaiden tukeminen kampanjoinnissa, vapaaehtoisten innostaminen, sisäisen ja ulkoisen viestinnän tehtävät sekä koulutusten järjestäminen."
+              ],
+              "evaluation": "Nessling suoriutui työtehtävistään hyvin. Hän työskenteli ammattimaisesti ja joustavasti osoittaen hyviä vuorovaikutus- ja työyhteisötaitoja. Hänellä on paineensietokykyä ja hän noudattaa sovittuja aikatauluja.",
+              "omistaja": "Jukka Saikkonen, Piirin puheenjohtaja, Kaakkois-Suomen vihreät ry.",
+
+              "full_recommendation": [
+                "Työtodistus Vesa Nessling työskenteli Kaakkois-Suomen Vihreiden kampanjakoordinaattorina 1.11.2022 – 30.4.2023 välisenä aikana.  Hänen tehtäviinsä kuuluivat ehdokashankinnan tukeminen, eduskuntavaalikampanjan suunnittelu ja toteutus, ehdokkaiden avunpyyntöihin vastaaminen, vaalimateriaalin tuottaminen sekä viestinnälliset tehtävät. Vesa toimi yhteistyössä eduskuntavaaliryhmän puheenjohtajan kanssa kampanjan markkinoinnissa ja suunnittelussa. Hän vastasi mainosmateriaalien (lehtimainokset, yleisesitteet, kadunvarsijulisteet, suurnäyttömainokset, ehdokkaiden omat esitteet, markkinointitavarat logolla, somemainokset yms.) tilaamisesta piirin yhteiseltä graafikolta. Hän osallistui vaalityöryhmän markkinointisuunnitelman laatimiseen ja toteuttamiseen. Hänellä on kokemusta useammista vaalikampanjoista ja niiden markkinoinnin tarpeista.  Kiireellisissä tilanteissa Vesa näytti taitonsa graafisessa suunnittelussa ja videomainosten luomisessa. Lisäksi hän osallistui neljä viikonloppua kestäneelle bussikiertueelle, jolla markkinoitiin Kaakkois-Suomen ehdokkaita. Vesa oli mukana myös ehdokkaiden koulutustilaisuuksissa toiminnajohtajan kanssa. Hän myös toimi vaaliasiamiehenä, huolehtien tarvittavien ehdokassopimusten keräämisestä ja toimittamisesta vaalilautakunnalle. Tarvittaessa hän avusti myös yhdistyksiä internetsivujen päivittämisessä ja ylläpidossa. Vesan monialainen osaaminen korostui erityisesti kampanjan markkinoinnissa, missä hän hallitsi sekä perinteiset että digitaaliset markkinointikanavat. Hän osallistui aktiivisesti sosiaalisen median kampanjointiin ja oppi nopeasti uusimmat tekniikat ja alustat. Hän toteuttaa pitkäjänteistä suunnitelmallista markkinointia ja seuraa sen vaikutuksia. Tarvittaessa Vesa keskustelee ja pohtii yhdessä muiden kanssa tarvittavista markkinoinnin muutoksista. Työ erilaisten ehdokkaiden parissa vaatii erityistä luovuutta ja kykyä sopeutua erilaisiin tarpeisiin. Vesa osoitti erinomaisia vuorovaikutustaitoja toimiessaan luontevasti kaikkien ehdokkaiden kanssa. Hän hallitsee oman-aloitteisen ja itseohjautuvan työotteen. Työn ollessa käytännössä etätyötä Vesan organisointi- ja viestintäosaaminen olivat erinomaiset. Sovitut aikataulut pitivät, ja tehtävät oli hoidettu moitteettomasti ja sovitussa ajassa. Näin piirin puheenjohtajan silmin Vesa Nessling osoittautui erinomaiseksi ja luotettavaksi työntekijäksi, joka täytti kaikki hänelle annetut tehtävät laadukkaasti ja sovitussa aikataulussa. Hänen panoksensa oli korvaamaton kampanjan onnistumisen kannalta, ja suosittelen häntä lämpimästi vastaaviin tehtäviin.   Jukka Saikkonen Mikkelissä 5.5.2023"
+              ],
+
+              "quotes": [
+                {
+                  "sitaatti": "Hänen tehtäviinsä kuuluivat ehdokashankinnan tukeminen, eduskuntavaalikampanjan suunnittelu ja toteutus, ehdokkaiden avunpyyntöihin vastaaminen, vaalimateriaalin tuottaminen sekä viestinnälliset tehtävät. Vesa toimi yhteistyössä eduskuntavaaliryhmän puheenjohtajan kanssa kampanjan markkinoinnissa ja suunnittelussa. Hän vastasi mainosmateriaalien (lehtimainokset, yleisesitteet, kadunvarsijulisteet, suurnäyttömainokset, ehdokkaiden omat esitteet, markkinointitavarat logolla, somemainokset yms.) tilaamisesta piirin yhteiseltä graafikolta. Hän osallistui vaalityöryhmän markkinointisuunnitelman laatimiseen ja toteuttamiseen.",
+
+                  "omistaja": "Jukka Saikkonen, Piirin puheenjohtaja, Kaakkois-Suomen vihreät ry.",
+                  "tagit": ["viestintä", "markkinointi"]
+          
+                },
+                {
+                    "sitaatti": "Kiireellisissä tilanteissa Vesa näytti taitonsa graafisessa suunnittelussa ja videomainosten luomisessa.",
+
+                  "omistaja": "Jukka Saikkonen, Piirin puheenjohtaja, Kaakkois-Suomen vihreät ry.",
+                  "tagit": ["viestintä", "markkinointi", "paineensieto", "stressi"]
+           
+                  },
+                  {
+                    "sitaatti": "Vesan monialainen osaaminen korostui erityisesti kampanjan markkinoinnissa, missä hän hallitsi sekä perinteiset että digitaaliset markkinointikanavat. Hän osallistui aktiivisesti sosiaalisen median kampanjointiin ja oppi nopeasti uusimmat tekniikat ja alustat. Hän toteuttaa pitkäjänteistä suunnitelmallista markkinointia ja seuraa sen vaikutuksia. Tarvittaessa Vesa keskustelee ja pohtii yhdessä muiden kanssa tarvittavista markkinoinnin muutoksista.",
+                 "omistaja": "Jukka Saikkonen, Piirin puheenjohtaja, Kaakkois-Suomen vihreät ry.",
+                  "tagit": ["viestintä", "markkinointi", "tietotekniikka", "pitkäjänteisyys", "markkinoinninsuunnittelu"]
+                  },
+                  {
+                    "sitaatti": "Vesa osoitti erinomaisia vuorovaikutustaitoja toimiessaan luontevasti kaikkien ehdokkaiden kanssa. Hän hallitsee oman-aloitteisen ja itseohjautuvan työotteen. Työn ollessa käytännössä etätyötä Vesan organisointi- ja viestintäosaaminen olivat erinomaiset. Sovitut aikataulut pitivät, ja tehtävät oli hoidettu moitteettomasti ja sovitussa ajassa.",
+                 "omistaja": "Jukka Saikkonen, Piirin puheenjohtaja, Kaakkois-Suomen vihreät ry.",
+                  "tagit": ["viestintä", "markkinointi", "vuorovaikutustaidot", "etätyö", "aikataulutus"]
+                  }
+
+              ],
+              "suosittelija": [
+                {
+                  "nimi":"Jukka Saikkonen",
+                  "puhelinnumero": "0400 744915",
+                  "sähköposti":"saikkonen.jukka@outlook.com"
+  
+                }
+  
+              ]
+            },
+        {
+            "title": "Markkinointisuunnittelija",
+            "company": "Mikkelin kaupungin liikelaitos Otavia",
+            "dates": "1.11.2021 - 29.5.2022",
+            "type":"Määräaikainen",
+            "tag":["kaupunki", "markkinointi", "graafikko", "koulutus", "tukipalvelut"],
+            "responsibilities": "Vastasin Otavian ja sen eri koulutuslinjojen markkinoinnin suunnittelusta ja toteutuksesta. Suunnittelin ja toteutin Nettilukion ulkomainoskampanjan Helsingin ja Tampereen julkisen liikenteen digitaalisiin näyttöihin sekä osallistuin somevaikuttajayhteistyöhön ja kahden laajan monimediaisen somekampanjan toteutukseen. Graafisen suunnittelun osalta vastasin Otavan Opiston ja Nettilukion juhlavuosien visuaalisten ilmeiden (logot, esityspohjat jne.) suunnittelusta. Suunnittelin ja tilasin erilaisia markkinointi- ja brändituotteita, kuten logollisia kyniä ja vihkoja.", 
+            "duties": [
+                "Otavian markkinointi: Vesan työtehtäviin kuului Otavian sekä sen koulutuslinjojen (Nettilukio, Nettiperuskoulu, Otavan Opiston aikuislukio, vapaan sivistystyö, aikuisten perusopetus) markkinoinnin suunnittelu ja toteutus yhteistyössä koulutuslinjojen markkinointivastaavien ja johdon kanssa. Työsuhteensa aikana Vesa suunnitteli ja toteutti mm. Nettilukion ulkomainoskampanjan pääkaupunkiseudun ja Tampereen julkisen liikenteen digitaalisiin näyttöihin, oli mukana somevaikuttajayhteistyössä sekä toteuttamassa kahta eri monimediaista somekampanjakokonaisuutta. Työtehtäviin kuului myös uutiskirjeiden sekä printtimedian mainosten laatimista. Erilaiset graafisen suunnittelun tehtävät: Vesan työtehtäviin kuului myös graafista suunnittelua. Hän toteutti mm. Otavan Opiston ja Nettilukion juhlavuosien visuaalisen ilmeen (logot, esityspohjat jne). Tämän lisäksi Vesa suunnitteli ja tilasi erilaisia markkinointituotteita (logollisia kyniä, vihkoja) sekä logollisia käyttötuotteita (esim. yo-kirjoituksissa käytettävät konseptipaperit)."
+              ],
+              "evaluation": "Työntekijänä Vesa on ammattitaitoinen ja luotettava ja hän hahmottaa laajoja kokonaisuuksia ja tarttuu tehtäviin oma-aloitteisesti. Vesa ymmärtää lisäksi markkinointityön pitkäjänteisyyden. Vesa on nopea oppimaan uutta, joustava ja halukas ottamaan vastaan uusia haasteita työssään. Työyhteisön jäsenenä Vesa on muut huomioon ottava, luotettava ja ystävällinen. Hänen yhteistyö- ja vuorovaikutustaitonsa ovat erinomaiset.",
+              "omistaja": "Miia Sivén, lukiokoulutuksen rehtori, Otavia Mikkelin kaupungin liikelaitos",
+
+              "full_recommendation": [
+                "Vesa Nessling (15.04.1985) toimi Mikkelin kaupungin liikelaitos Otaviassa 1.11.2021 - 30.4.2022 markkinointisuunnittelijan vuorotteluvapaan sijaisena. Tuona aikana hänen tehtäviinsä kuului seuraavia tehtäviä: Otavian markkinointi: Vesan työtehtäviin kuului Otavian sekä sen koulutuslinjojen (Nettilukio, Nettiperuskoulu, Otavan Opiston aikuislukio, vapaan sivistystyö, aikuisten perusopetus) markkinoinnin suunnittelu ja toteutus yhteistyössä koulutuslinjojen markkinointivastaavien ja johdon kanssa. Työsuhteensa aikana Vesa suunnitteli ja toteutti mm. Nettilukion ulkomainoskampanjan pääkaupunkiseudun ja Tampereen julkisen liikenteen digitaalisiin näyttöihin, oli mukana somevaikuttajayhteistyössä sekä toteuttamassa kahta eri monimediaista somekampanjakokonaisuutta. Työtehtäviin kuului myös uutiskirjeiden sekä printtimedian mainosten laatimista. Erilaiset graafisen suunnittelun tehtävät: Vesan työtehtäviin kuului myös graafista suunnittelua. Hän toteutti mm. Otavan Opiston ja Nettilukion juhlavuosien visuaalisen ilmeen (logot, esityspohjat jne). Tämän lisäksi Vesa suunnitteli ja tilasi erilaisia markkinointituotteita (logollisia kyniä, vihkoja) sekä logollisia käyttötuotteita (esim. yo-kirjoituksissa käytettävät konseptipaperit). Työntekijänä Vesa on ammattitaitoinen ja luotettava ja hän hahmottaa laajoja kokonaisuuksia ja tarttuu tehtäviin oma-aloitteisesti. Vesa ymmärtää lisäksi markkinointityön pitkäjänteisyyden. Vesa on nopea oppimaan uutta, joustava ja halukas ottamaan vastaan uusia haasteita työssään. Työyhteisön jäsenenä Vesa on muut huomioon ottava, luotettava ja ystävällinen. Hänen yhteistyö- ja vuorovaikutustaitonsa ovat erinomaiset. Otavassa 11.5.2022 Miia Sivén Otavian lukiokoulutuksen rehtori OTAVIA MIKKELIN KAUPUNGIN LIIKELAITOS"
+              ],
+
+              "quotes": [
+                {
+                  "sitaatti": "Työntekijänä Vesa on ammattitaitoinen ja luotettava ja hän hahmottaa laajoja kokonaisuuksia ja tarttuu tehtäviin oma-aloitteisesti. Vesa ymmärtää lisäksi markkinointityön pitkäjänteisyyden. Vesa on nopea oppimaan uutta, joustava ja halukas ottamaan vastaan uusia haasteita työssään. Työyhteisön jäsenenä Vesa on muut huomioon ottava, luotettava ja ystävällinen. Hänen yhteistyö- ja vuorovaikutustaitonsa ovat erinomaiset.",
+
+                  "omistaja": "Miia Sivén, lukiokoulutuksen rehtori, Otavia Mikkelin kaupungin liikelaitos",
+                  "tagit": ["viestintä", "markkinointi", "vuorovaikutustaidot", "ammattitaito", "luotettava", "hahmottaminen", "nopea oppimaan", "oma-alotteinen", "työkaveri"]          
+                }
+
+              ],
+              "suosittelija": [
+                {
+                  "nimi":"Miia Sivén",
+                  "puhelinnumero": "040 129 4671",
+                  "sähköposti":"miia.siven@otavia.fi"
+  
+                }
+  
+              ]
+        },
+        {
+            "title": "Kampanjakoordinaattori",
+            "company": "Kaakkois-Suomen vihreät ry",
+            "dates": "7.1.2021 - 15.6.2021",
+            "type":"Määräaikainen",
+            "tag":["järjestö", "kampanjakoordinaattori", "markkinointi", "graafikko", "koordinointi"],
+            "responsibilities": "Tuotin monipuolista digitaalista ja painettua materiaalia, kuten lehtiartikkeleita, sosiaalisen median sisältöä, kadunvarsimainoksia ja videomainoksia suurnäytöille. Tarjosin tukea ehdokkaille ja varmistin, että heillä oli kaikki tarvittavat resurssit kampanjoidensa tueksi. Osallistuin aktiivisesti kampanjan suunnitteluun ja toteutukseen, vastaten budjetista ja aikataulusta."
+        },
+        {
+            "title": "Projektiharjoittelija",
+            "company": "Kaakkois-Suomen ammattikorkeakoulu (XAMK)",
+            "dates": "1.10.2019 - 31.12.2019",
+            "type":"Määräaikainen",
+            "tag":["koulutus", "projekti", "markkinointi", "graafikko", "koordinointi"],
+            "responsibilities": "Järjestin ja koordinoin tapahtumia. Toteutin projektien viestintää."
+        },
+        {
+            "title": "Tapahtumakoordinaattori",
+            "company": "Helsingin seurakunnat",
+            "dates": "10.4.2019 - 31.5.2019",
+            "type":"Määräaikainen",
+            "tag":["kirkko", "seurakunta", "koordinointi"],
+            "responsibilities": "Toimin tapahtumakoordinaattorina Uskontojen kylä -tapahtumassa, jossa vastuullani oli järjestää eri uskontokuntien yhteinen messutila. Vastasin myös tapahtuman ulkoisesta ja sisäisestä viestinnästä."
+        },
+        {
+            "title": "Viestintäsihteeri",
+            "company": "Mikkelin seudun vihreät ry",
+            "dates": "2.4.2019 - 30.4.2019",
+            "type":"Harjoittelu",
+            "tag":["järjestö", "kampanjakoordinaattori", "markkinointi", "graafikko", "koordinointi"],
+            "responsibilities": "Tuin eduskuntavaaliehdokkaita ja tuotin vaalimateriaalia lehtiin ja sosiaaliseen mediaan."
+        },
+        {
+            "title": "Koulutusassistentti",
+            "company": "Mikkelin ammattikorkeakoulu",
+            "dates": "2.2.2013 - 20.12.2013",
+            "type":"Määräaikainen",
+            "tag":["koulutus", "projekti", "markkinointi", "graafikko", "koordinointi"],
+            "responsibilities": "Valmistelin opinnäytetyöseminaareja, tuotin julkaisumateriaalia (sähköinen, printti) ja tuotin markkinointimateriaalia."
+        }
+    ],
+
+
+
+    "education": [
+        {
+            "institution": "Helsingin yliopisto",
+            "degree": "Teologian maisteri",
+            "field_of_study": "Uskonnonfilosofia",
+            "description":"",
+            "credits":"210",
+            "year": 2018
+        },
+        {
+            "institution": "Helsingin yliopisto",
+            "degree": "Teologian kandidaatti",
+            "field_of_study": "Kirkkohistoria, ekumenia",
+            "description":"",
+            "credits":"210",
+            "year": 2017
+        },
+        {
+            "institution": "Mikkelin ammattikorkeakoulu",
+            "degree": "Restonomi",
+            "field_of_study": "Palvelujen tuottaminen ja johtaminen",
+            "description":"",
+            "credits":"210",
+            "year": 2013
+        },
+    
+        {
+            "institution": "Mikkelin Lyseon lukion aikuislinja",
+            "degree": "Ylioppilas",
+            "description":"",
+            "credits":"210",
+            "year": 2010
+        }
+    ],
+
+    "languages": {
+       
+        "Suomi": {
+          "Kirjallinen": ["10", "erinoimainen"],
+          "Suullinen": ["10", "erinoimainen"],
+          "Ymmärrys": ["10", "erinomainen"]
+        },
+        "Englanti": {
+          "Kirjallinen": ["8", "sujuva"],
+          "Suullinen": ["8", "sujuva"],
+          "Ymmärrys": ["9", "sujuva"]
+        },
+        "Ruotsi": {
+          "Kirjallinen": ["7", "tyydyttävä"],
+          "Suullinen": ["7", "tyydyttävä"],
+          "Ymmärrys": ["7", "tyydyttävä"]
+        }
+      },
+
+        "ict_skills": {
+          "Office-ohjelmistoja": {
+            "Microsoft Office (Word, Excel, PowerPoint, Outlook)": {
+              "arvio": 9,
+              "lisätietoa": "Erinomainen hallinta kaikissa Office-paketin työkaluissa"
+            },
+            "Microsoft 365": {
+              "arvio": 8,
+              "lisätietoa": "Pilvipohjainen yhteistyö ja tiedostonhallinta"
+            },
+            "Google Suite (Docs, Sheets, Drive)": {
+              "arvio": 8,
+              "lisätietoa": "Päivittäinen käyttö dokumenttien ja taulukoiden hallintaan"
+            }
+          },
+          "Suunnittelu- ja grafiikkaohjelmat": {
+            "Adobe Photoshop": {
+              "arvio": 9,
+              "lisätietoa": "Kuvankäsittely ja rasterigrafiikan editointi"
+            },
+            "Adobe Illustrator": {
+              "arvio": 8,
+              "lisätietoa": "Vektoripohjainen suunnittelu ja logojen luonti"
+            },
+            "Adobe InDesign": {
+              "arvio": 6,
+              "lisätietoa": "Julkaisujen layout-suunnittelu"
+            },
+            "Adobe Lightroom": {
+              "arvio": 6,
+              "lisätietoa": "Valokuvien jälkikäsittely ja värisäätö"
+            },
+            "Adobe Premiere": {
+              "arvio": 4,
+              "lisätietoa": "Perustason videonleikkaus"
+            },
+            "Adobe After Effects": {
+              "arvio": 4,
+              "lisätietoa": "Animaatioiden perusasiat"
+            }
+          },
+          "Verkko- ja ohjelmointitaidot": {
+            "HTML5": {
+              "arvio": 8,
+              "lisätietoa": "Verkkosivujen rakenteen luonti"
+            },
+            "CSS": {
+              "arvio": 8,
+              "lisätietoa": "Tyylien hallinta ja responsiivisuus"
+            },
+            "Wordpress": {
+              "arvio": 8,
+              "lisätietoa": "CMS-järjestelmän hallinta ja blogien ylläpito"
+            },
+            "Javascript": {
+              "arvio": 6,
+              "lisätietoa": ""
+            }
+          },
+          "Sosiaalisen median alustat": {
+            "Facebook": {
+              "arvio": 8,
+              "lisätietoa": "Sisällöntuotanto ja mainonnan hallinta"
+            },
+            "Instagram": {
+              "arvio": 9,
+              "lisätietoa": "Visuaalisen sisällön luonti ja some-strategiat"
+            },
+            "LinkedIn": {
+              "arvio": 7,
+              "lisätietoa": "Ammattiprofiilien hallinta ja verkostoituminen"
+            },
+            "TikTok": {
+              "arvio": 6,
+              "lisätietoa": "Lyhytvideoiden luonti ja trendien hyödyntäminen"
+            },
+            "Twitter": {
+              "arvio": 7,
+              "lisätietoa": "Reaaliaikainen viestintä ja hashtag-käyttö"
+            },
+            "Streamyard": {
+              "arvio": 5,
+              "lisätietoa": "Livestreamien tuottaminen"
+            },
+            "Tumblr": {
+              "arvio": 4,
+              "lisätietoa": "Mikroblogien julkaiseminen"
+            }
+          },
+          "Järjestelmäosaaminen": {
+            "Windows": {
+              "arvio": 9,
+              "lisätietoa": "Syvä tuntemus Windows-ympäristöistä"
+            },
+            "Macintosh": {
+              "arvio": 9,
+              "lisätietoa": "macOS-käyttöjärjestelmän hallinta"
+            },
+            "Poliisin erikoisjärjestelmät": {
+              "arvio": 4,
+              "lisätietoa": "Perustason käyttötaidot"
+            },
+            "TE-palveluiden järjestelmät": {
+              "arvio": 6,
+              "lisätietoa": "Asiakaspalvelujärjestelmien käyttö"
+            }
+          },
+          "Liiketoimintaohjelmistot": {
+            "SAP HCM": {
+              "arvio": 9,
+              "lisätietoa": "Henkilöstöhallintajärjestelmän peruskäyttö"
+            },
+            "CGI Palkat": {
+              "arvio": 5,
+              "lisätietoa": "Palkanlaskentajärjestelmän perusteet"
+            },
+            "Excel (edistyneet kaavat, pivot-taulukot)": {
+              "arvio": 8,
+              "lisätietoa": "Datan analysointi ja raportointi"
+            }
+          }
+        },
+
+    "additional_training": [
+        {
+            "institution": "MinnaLearn, Helsingin yliopisto",
+            "course": "Tekoälyn perusteet ja teknologiat",
+            "credits": 1,
+            "year": 2025,
+            "description":"Vesa Nessling on suorittanut 27 opiskelijatyötunnin laajuisen koulutuksen, jossa hän on perehtynyt tekoälyn määritelmiin, yhteiskunnallisiin vaikutuksiin sekä koneoppimisen ja neuroverkkojen perusteisiin. Opinnot sisälsivät käytännön harjoitustyön tekoälyn mahdollisuuksien kartoittamisesta omalle toimialalle sekä aktiivista osallistumista kolmeen työpajaan. Koulutus on vahvistanut osallistujan kykyä ymmärtää ja soveltaa tekoälyn peruskäsitteitä omassa työssään tai alallaan."
+        },
+         {
+            "institution": "Jyväskylän yliopisto, avoin yliopisto",
+            "course": "Kasvatustieteen perusteet",
+            "credits": 25,
+            "year": 2021
+        },
+        {
+            "institution": "Etelä-Savon Koulutus Oy",
+            "course": "Asiakaspalvelu sekä viestintä ja vuorovaikutustaidot",
+            "year": 2019
+        },
+        {
+            "institution": "Esedu",
+            "course": "Paremman Palvelun Osaaja valmennus",
+            "year": 2019
+        },
+        {
+            "institution": "Helsingin yliopisto",
+            "course": "Politiikka ja organisaatiot",
+            "credits": 35,
+            "year": 2018
+        },
+        {
+            "institution": "Jyväskylän yliopisto, avoin yliopisto",
+            "course": "Psykologian perusopinnot",
+            "credits": 25,
+            "year": 2017
+        }
+    ],
+
+    "publish": [
+    {
+      "type":"Opinnäyte",
+      "author": ["Vesa Nessling"],
+      "year":"2018",
+      "organization":"Helsingin yliopisto, Teologinen tiedekunta",
+      "title":"Rikos, rangaistus ja anteeksianto - Väärinteosta sovitukseen",
+      "title-url":"http://hdl.handle.net/10138/270342",
+      "article":"",
+      "article-url":"",
+      "description":""
+
+    },
+    {
+      "type":"Opinnäyte",
+      "author": ["Vesa Nessling"],
+      "year":"2016",
+      "organization":"Helsingin yliopisto, Teologinen tiedekunta",
+      "title":"Suomen evankelis-luterilaisen kirkon ja Venäjän ortodoksisen kirkon oppineuvottelut 1970-1977 uusimman tutkimuksen valossa",
+      "title-url":"",
+      "article":"",
+      "article-url":"",
+      "description":""
+
+    },
+    {
+      "type":"Opinnäyte",
+      "author": ["Vesa Nessling", "Veera Kuronen"],
+      "year":"2013",
+      "organization":"Mikkelin ammattikorkeakoulu",
+      "title":"Opetusmateriaalin tuottaminen videohaastatteluina, näkökulmana cook and chill -menetelmä",
+      "title-url":"https://www.theseus.fi/handle/10024/54456",
+      "article":"",
+      "article-url":"",
+      "description":""
+
+    },
+    {
+      "type":"artikkeli",
+      "author": ["Parkkinen, N.", "Nessling, N"],
+      "year":"2019",
+      "organization":"Kaakkois-Suomen ammattikorkeakoulu",
+      "title":"Opas kestäviin ruokapalveluihin yleisötapahtumissa. Xamk Inspiroi 19",
+      "title-url":"",
+      "article":"Esimerkkejä vastuullisesti toteutetuista musiikki- festivaaleista",
+      "article-url":"https://www.theseus.fi/handle/10024/267231",
+      "description":""
+
+    }
+
+
+    ],
+		
+    "other": [
+        "Heprea 10 op (muinaisheprea)",
+        "Markkinoinnin perusteet 10 op",
+        "Yrittäjyys-opintoja 10 op"
+    ],
+		
+    "hobbies": [
+      "Nautin veneilystä ja mökkeilystä, joissa pääsen nauttimaan luonnon rauhasta ja kauniista maisemista. Koiran kanssa touhuaminen ja lenkkeily vähentävät päivittäistä stressiä ja tuovat iloa arkeen. Matkustaminen avartaa maailmankuvaani ja tarjoaa uusia seikkailuja. Olen intohimoinen lukija, erityisesti antiikin kirjallisuuden parissa, ja ruoanlaitto on minulle taidetta – italialainen keittiö on erityinen suosikkini."
+    ],
+
+    "paikat": [
+    {
+        "organization": "USKOT-Forum",
+        "organization-url": "https://uskot.fi",
+        "description":"",
+        "role": "Viestintäjaoston jäsen",
+        "tag": ["uskonto", "järjestö"],
+        "years": "2020 -"
+    },
+    {
+        "organization": "Mikkelin seudun vihreät ry",
+        "organization-url": "https://www.misevi.fi",
+        "description":"",
+        "role": "Hallituksen jäsen",
+        "tag": ["politiikka", "yhdistys"],
+        "years": "2017 - 2021, 2023 - 2024"
+    },
+    {
+        "organization": "Mikkelin seudun vihreät ry",
+        "organization-url": "",
+        "description":"",
+        "role": "Jäsenvastaava",
+        "tag": ["politiikka", "yhdistys"],
+        "years": "2018 - 2020, 2023"
+    },
+    {
+        "organization": "Etelä-Savon Käräjäoikeus",
+        "organization-url": "",
+        "description":"",
+        "role": "Lautamies",
+        "tag": ["politiikka", "valtio", "luottamus"],
+        "years": "2019 - 2021"
+    },
+    {
+        "organization": "Mikkelin kaupungin kasvatus- ja opetuslautakunta",
+        "organization-url": "",
+        "description":"",
+        "role": "Jäsen",
+        "tag": ["politiikka", "kaupunki", "luottamus"],
+        "years": "2019 - 2021"
+    },
+    {
+        "organization": "Mikkelin seudun vihreät ry",
+        "organization-url": "",
+        "description":"",
+        "role": "Viestintähenkilö",
+        "tag": ["politiikka", "yhdistys"],
+        "years": "2018 - 2021"
+    },
+    {
+        "organization": "Suomen kristillinen ylioppilasliitto",
+        "organization-url": "",
+        "description":"",
+        "role": "Hallituksen jäsen",
+        "tag": ["uskonto", "järjestö"],
+        "years": "2019"
+    },
+    {
+        "organization": "Vaalilautakunta",
+        "organization-url": "",
+        "description":"",
+        "role": "Jäsen",
+        "tag": ["politiikka", "kaupunki", "luottamus"],
+        "years": "2019"
+    }
+    
+]
+
+}

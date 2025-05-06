@@ -1,0 +1,156 @@
+{
+        "core_competencies": {
+          "language_proficiency": {
+            "finnish": {
+              "written": 10,
+              "spoken": 10,
+              "comprehension": 10
+            },
+            "english": {
+              "written": 9,
+              "spoken": 9,
+              "comprehension": 10
+            },
+            "swedish": {
+              "written": 7,
+              "spoken": 6,
+              "comprehension": 8
+            }
+          },
+          "customer_service": {
+            "client_communication": 9,
+            "conflict_resolution": 9,
+            "customer_satisfaction": 9,
+            "multilingual_support": 8
+          },
+          "work_ethic": {
+            "stress_management": 9,
+            "adaptability": 9,
+            "reliability": 10
+          }
+        },
+        "professional_qualifications": {
+          "education": {
+            "higher_education_degree": 8,
+            "specialized_training": 7
+          },
+          "experience": {
+            "relevant_work_experience": 9,
+            "industry_knowledge": 8
+          }
+        },
+        "management_skills": {
+          "time_management": {
+            "prioritization": 8,
+            "deadline_management": 8,
+            "efficiency": 8
+          },
+          "organization": {
+            "planning": 7,
+            "process_optimization": 7,
+            "document_management": 8
+          }
+        },
+        "interpersonal_skills": {
+          "collaboration": {
+            "teamwork": 8,
+            "cross_department_cooperation": 7,
+            "mentoring": 6
+          },
+          "independence": {
+            "self_direction": 7,
+            "problem_solving": 8,
+            "initiative": 7
+          }
+        },
+        "technical_skills": {
+          "office_software": {
+            "ms_office": 7,
+            "excel_advanced": 8,
+            "collaboration_tools": 8
+          },
+          "industry_specific": {
+            "sap": 6,
+            "crm_systems": 7
+          }
+        },
+      
+      "ict_skills": {
+        "Office-ohjelmistoja": {
+            "Microsoft Office (Word, Excel, PowerPoint, Outlook)": 9,
+            "Microsoft 365": 8,
+            "Google Suite (Docs, Sheets, Drive)": 8
+        },
+        "Suunnittelu- ja grafiikkaohjelmat": {
+            "Adobe Photoshop": 7,
+            "Adobe Illustrator": 6,
+            "Adobe InDesign": 5,
+            "Adobe Lightroom": 6,
+            "Adobe Premiere": 4,
+            "Adobe After Effects": 3
+        },
+        "Verkko- ja ohjelmointitaidot": {
+            "HTML5": 6,
+            "CSS": 5,
+            "Wordpress": 7
+        },
+        "Sosiaalisen median alustat": {
+            "Facebook": 8,
+            "Instagram": 9,
+            "LinkedIn": 8,
+            "TikTok": 6,
+            "Twitter": 7,
+            "Streamyard": 5
+        },
+        "Järjestelmäosaaminen": {
+            "Windows": 9,
+            "Macintosh": 7,
+            "Poliisin erikoisjärjestelmät": 4,
+            "TE-palveluiden järjestelmät": 5
+        },
+        "Liiketoimintaohjelmistot": {
+            "SAP HCM": 6,
+            "CGI Palkat": 5,
+            "Excel (edistyneet kaavat, pivot-taulukot)": 8
+        }
+    }
+  },
+
+    "ict_skills": {
+    "Office-ohjelmistoja": {
+        "Microsoft Office (Word, Excel, PowerPoint, Outlook)": 9,
+        "Microsoft 365": 8,
+        "Google Suite (Docs, Sheets, Drive)": 8
+    },
+    "Suunnittelu- ja grafiikkaohjelmat": {
+        "Adobe Photoshop": 7,
+        "Adobe Illustrator": 6,
+        "Adobe InDesign": 5,
+        "Adobe Lightroom": 6,
+        "Adobe Premiere": 4,
+        "Adobe After Effects": 3
+    },
+    "Verkko- ja ohjelmointitaidot": {
+        "HTML5": 6,
+        "CSS": 5,
+        "Wordpress": 7
+    },
+    "Sosiaalisen median alustat": {
+        "Facebook": 8,
+        "Instagram": 9,
+        "LinkedIn": 8,
+        "TikTok": 6,
+        "Twitter": 7,
+        "Streamyard": 5
+    },
+    "Järjestelmäosaaminen": {
+        "Windows": 9,
+        "Macintosh": 7,
+        "Poliisin erikoisjärjestelmät": 4,
+        "TE-palveluiden järjestelmät": 5
+    },
+    "Liiketoimintaohjelmistot": {
+        "SAP HCM": 6,
+        "CGI Palkat": 5,
+        "Excel (edistyneet kaavat, pivot-taulukot)": 8
+    }
