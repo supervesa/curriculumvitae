@@ -899,10 +899,10 @@ p.trustpos-section {
 
     /* Header-tyylit mobiilille */
     .header-container {
-        height: 600px;
+        height: 100vh;
     }
     .profile-image-container {
-        top: -45px;
+        top: -50px;
     }
     .profile-image {
         width: 100px;
