@@ -21,9 +21,7 @@ export default function App() {
 
   return (
     <>
-
-      <div className="cv-container">
-        <Header
+      <Header
           name={cvData.name} // Korjattu: data → cvData
           contact={cvData.contact}
           backgroundImages={[
@@ -34,6 +32,8 @@ export default function App() {
           profileImage={cvData["profiili-kuva"][0]} // Korjattu: data → cvData
           description={cvData.description2[0]} // Korjattu: data → cvData
         />
+      <div className="cv-container">
+  
         
         <WorkExperience jobs={cvData.work_experience || []} />
         <Education schools={cvData.education || []} />

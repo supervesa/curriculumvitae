@@ -4,8 +4,8 @@ const LanguageSkills = () => {
   const languagesData = {
     "languages": {
       "Suomi": {
-        "Kirjallinen": ["10", "erinoimainen"],
-        "Suullinen": ["10", "erinoimainen"],
+        "Kirjallinen": ["10", "erinomainen"],
+        "Suullinen": ["10", "erinomainen"],
         "Ymmärrys": ["10", "erinomainen"]
       },
       "Englanti": {
@@ -23,7 +23,7 @@ const LanguageSkills = () => {
 
   return (
     <div className="language-skills-wrapper">
-      <h2 className="section-title">Kielitaito</h2>
+      <h1 className="section-title">Kielitaito</h1>
       <div className="language-grid">
         {Object.entries(languagesData.languages).map(([langName, langSkills]) => (
           <div key={langName} className="language-card">
