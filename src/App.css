@@ -216,6 +216,11 @@ body {
     background-color: var(--off-white);
 }
 
+.numbers-section-container {
+
+
+}
+
 /* Yleiset section-tyylit (Desktop) */
 section,
 .koulutus-osio,
@@ -232,6 +237,13 @@ section,
     border-radius: 8px;
     animation: fadeIn 0.5s ease-out forwards;
     box-sizing: border-box; 
+}
+.numbers-section-container {
+ margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 2rem; 
+    padding: 1rem; 
+
 }
 
 section:nth-child(2) { animation-delay: 0.1s; }
@@ -250,6 +262,7 @@ section:nth-child(4) { animation-delay: 0.3s; }
     margin-bottom: 2rem;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
 }
 
 .background-layers {
@@ -269,7 +282,7 @@ section:nth-child(4) { animation-delay: 0.3s; }
     height: 100%;
     background-size: cover;
     background-position: center;
-    animation: zoomIn 20s ease-in-out infinite alternate;
+    animation: zoomIn 60s ease-in-out infinite alternate;
 }
 
 .base-layer {
@@ -1009,5 +1022,138 @@ p.trustpos-section {
         background-color: var(--accent-orange); 
         border-radius: 5px;
         transition: width 0.5s ease-in-out;
+    }
+}
+
+/* === NUMBERS SECTION STYLES === */
+
+/*
+  Oletus React-komponentin rakenteelle:
+  <section class="numbers-section"> // Tämä perii globaalit 'section' tyylit
+    <div class="numbers-section__container"> // Uusi kontaineri sisällölle
+      <h2 class="numbers-section__title">...</h2>
+      <div class="numbers-section__grid">
+        <div class="numbers-card">
+          <i class="[font-awesome-class] numbers-card__icon"></i>
+          <div class="numbers-card__highlight">...</div>
+          <p class="numbers-card__text">...</p>
+        </div>
+        // ... lisää kortteja ...
+      </div>
+    </div>
+  </section>
+*/
+
+/* Numbers-osion pääelementti (<section class="numbers-section">)
+   Tämän tulisi periä tyylit globaalista 'section'-määrittelystäsi.
+   Esimerkiksi:
+   .section {
+       text-align: left;
+       margin-bottom: 2rem;
+       padding: 1rem; // Tämä padding vaikuttaa koko numbers-sectioniin
+       border-radius: 8px;
+       animation: fadeIn 0.5s ease-out forwards;
+       box-sizing: border-box;
+   }
+   Jos globaali 'section' -luokkasi on jo olemassa ja käytössä,
+   .numbers-section -luokkaa ei välttämättä tarvitse erikseen määritellä,
+   ellei sille haluta jotain uniikkia (esim. eri taustaväri).
+*/
+.numbers-section {
+    /* Peri globaalit section-tyylit. */
+    /* Jos haluat varmistaa, että se käyttää koko leveyden .cv-containerin sisällä: */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Kontaineri Numbers-osion sisällölle (otsikko ja grid) */
+.numbers-section__container {
+    /* Jos NumbersSection on .cv-containerin sisällä, .cv-container
+       hoitaa max-leveyden ja keskityksen.
+       Jos NumbersSection on .cv-containerin ulkopuolella,
+       voit käyttää tätä keskittämiseen:
+    */
+    max-width: 72rem; /* Esimerkkileveys, säädä tarpeen mukaan */
+    margin-left: auto;
+    margin-right: auto;
+    /* Paddingia voidaan lisätä tähän, jos globaali section-padding ei riitä
+       tai jos halutaan eri padding Numbers-osiolle.
+       Esim: padding: 0 1rem; (ei ylä-ala, vain sivuille)
+       Koska globaalissa section-tyylissäsi on jo padding: 1rem,
+       tämä voi olla tarpeeton, ellei haluta lisää.
+    */
+}
+
+.numbers-section__title {
+    font-size: var(--fs-h3); /* Käytetään globaalia H3-kokoa */
+    color: var(--off-black);
+    text-align: center;
+    margin-bottom: 2.5rem; /* Väli otsikon ja gridin välillä */
+}
+
+/* Numerokorttien grid-asetelma */
+.numbers-section__grid {
+    display: grid;
+    gap: 1.5rem; /* Väli korttien välillä */
+    grid-template-columns: 1fr; /* Oletus mobiilille: yksi sarake */
+    /* justify-items: center; Keskittää kortit sarakkeessaan, jos ne ovat kapeampia.
+       Yhden sarakkeen ja width:100% kortilla tämä ei yleensä tee eroa. */
+}
+
+/* Yksittäisen numerokortin tyylit */
+.numbers-card {
+    background-color: var(--cloud-white); /* Käytetään globaalia muuttujaa */
+    border-radius: 12px; /* Yhtenäinen pyöristys */
+    padding: 1.75rem; /* Sopiva padding korteille */
+    text-align: center; /* Keskittää tekstisisällön */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Keskittää sisällön pystysuunnassa */
+    align-items: center; /* Keskittää sisällön vaakasuunnassa */
+    min-height: 180px; /* Säilytetään minimikorkeus */
+    border: 1px solid var(--warm-grey-2); /* Käytetään globaalia muuttujaa */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05); /* Hienovarainen varjo */
+    width: 100%; /* Varmistaa, että kortti täyttää grid-solun leveyden */
+    box-sizing: border-box; /* Padding ja border lasketaan leveyteen */
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+.numbers-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.numbers-card__icon {
+    font-family: var(--font-serif-primary); /* Käyttäjän antama */
+    font-size: 2.5rem;
+    color: var(--accent-orange); /* Käyttäjän antama */
+    margin-bottom: 0.75rem;
+}
+
+.numbers-card__highlight {
+    font-family: var(--font-serif-primary); /* Käyttäjän antama */
+    font-size: 3.75rem;
+    font-weight: 900;
+    color: var(--accent-orange); /* Käyttäjän antama */
+    line-height: 1;
+    margin-bottom: 0.5rem;
+}
+
+.numbers-card__text {
+    font-family: var(--font-sans); /* Käytetään globaalia p-elementin fonttia */
+    font-size: 0.9rem; /* Hieman pienempi kuin --fs-base */
+    color: var(--greige); /* Käyttäjän antama */
+    line-height: 1.5;
+}
+
+/* Responsiivisuus gridille */
+@media (min-width: 768px) { /* Tabletit */
+    .numbers-section__grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (min-width: 1024px) { /* Desktopit */
+    .numbers-section__grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
     }
 }
