@@ -339,7 +339,7 @@
             }
           },
           "Verkko- ja ohjelmointitaidot": {
-            "HTML5": {
+            "HTML": {
               "arvio": 8,
               "lisätietoa": "Verkkosivujen rakenteen luonti"
             },
@@ -353,20 +353,24 @@
             },
             "Javascript": {
               "arvio": 6,
-              "lisätietoa": ""
+              "lisätietoa": "Alkeet ja koodin luku"
             }
           },
           "Sosiaalisen median alustat": {
             "Facebook": {
-              "arvio": 8,
+              "arvio": 9,
               "lisätietoa": "Sisällöntuotanto ja mainonnan hallinta"
             },
             "Instagram": {
               "arvio": 9,
               "lisätietoa": "Visuaalisen sisällön luonti ja some-strategiat"
             },
+            "Meta Businesssuite": {
+              "arvio": 9,
+              "lisätietoa": "Kampanjat ja markkinointi"
+            },
             "LinkedIn": {
-              "arvio": 7,
+              "arvio": 8,
               "lisätietoa": "Ammattiprofiilien hallinta ja verkostoituminen"
             },
             "TikTok": {
@@ -374,48 +378,22 @@
               "lisätietoa": "Lyhytvideoiden luonti ja trendien hyödyntäminen"
             },
             "Twitter": {
-              "arvio": 7,
+              "arvio": 8,
               "lisätietoa": "Reaaliaikainen viestintä ja hashtag-käyttö"
             },
             "Streamyard": {
-              "arvio": 5,
+              "arvio": 8,
               "lisätietoa": "Livestreamien tuottaminen"
-            },
-            "Tumblr": {
-              "arvio": 4,
-              "lisätietoa": "Mikroblogien julkaiseminen"
             }
           },
           "Järjestelmäosaaminen": {
             "Windows": {
-              "arvio": 9,
+              "arvio": 10,
               "lisätietoa": "Syvä tuntemus Windows-ympäristöistä"
             },
-            "Macintosh": {
-              "arvio": 9,
+            "Mac OS X": {
+              "arvio": 10,
               "lisätietoa": "macOS-käyttöjärjestelmän hallinta"
-            },
-            "Poliisin erikoisjärjestelmät": {
-              "arvio": 4,
-              "lisätietoa": "Perustason käyttötaidot"
-            },
-            "TE-palveluiden järjestelmät": {
-              "arvio": 6,
-              "lisätietoa": "Asiakaspalvelujärjestelmien käyttö"
-            }
-          },
-          "Liiketoimintaohjelmistot": {
-            "SAP HCM": {
-              "arvio": 9,
-              "lisätietoa": "Henkilöstöhallintajärjestelmän peruskäyttö"
-            },
-            "CGI Palkat": {
-              "arvio": 5,
-              "lisätietoa": "Palkanlaskentajärjestelmän perusteet"
-            },
-            "Excel (edistyneet kaavat, pivot-taulukot)": {
-              "arvio": 8,
-              "lisätietoa": "Datan analysointi ja raportointi"
             }
           }
         },

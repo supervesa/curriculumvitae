@@ -8,38 +8,51 @@ const numberData = [
     {
         iconClass: "fas fa-home", // VAIN Font Awesome -luokat
         number: "20",
-        text: "vuoden monipuolinen kokemus ihmisten, prosessien ja projektien parissa, aina ratkaisukeskeisesti."
+        text: "vuoden laaja-alainen kokemus asiakaspalvelusta, niin yksityisellä kuin julkisellakin sektorilla – ratkaisukeskeisyys edellä."
     },
     {
         iconClass: "fas fa-cogs", // VAIN Font Awesome -luokat
-        number: "9",
-        text: "erilaista työroolia vuodesta 2013, osoittaen vahvaa sopeutumiskykyä ja halua oppia uutta eri toimialoilla."
+        number: "12+",
+        text: "erilaista työroolia kahdenkymmenen vuoden ajalta, vahvaa sopeutumiskykyä ja jatkuvaa halua oppia uutta eri toimialoilta."
     },
     {
         iconClass: "fas fa-lightbulb", // VAIN Font Awesome -luokat
         number: "4+",
-        text: "keskeistä asiantuntija-aluetta hallussa: Markkinointi & Viestintä, Graafinen suunnittelu & Projektinhallinta."
+        text: "keskeistä asiantuntija-aluetta vankasti hallussa: Markkinointi & Viestintä, Graafinen suunnittelu & Asiakasrajapintatyöskentely."
     },
     {
         iconClass: "fas fa-tools", // VAIN Font Awesome -luokat
-        number: "11+",
-        text: "ammattilaisen työkalua ja järjestelmää sujuvasti käytössä (Adobe CC, Office 365, Valtion järjestelmät ym.)."
+        number: "15+",
+        text: "ammattilaisen työkalua ja järjestelmää sujuvassa käytössä – sähköpostin tehokäytöstä vaativaan kuvan käsittelyyn ja kevyeen koodaukseen."
+    },
+        {
+        iconClass: "fas fa-graduation-cap", // Koulutus (tutkinnot)
+        number: "4", // Ylioppilas, Restonomi, Teol. kand., Teol. maisteri
+        text: "tutkintoa maisteritasolle asti, luoden vankan akateemisen perustan ja kyvyn hallita laajoja kokonaisuuksia."
     },
     {
-        iconClass: "fas fa-handshake", // VAIN Font Awesome -luokat
-        number: "8",
-        text: "erilaista luottamustehtävää useissa eri organisaatioissa, osoittaen sitoutumista yhteiskunnalliseen vaikuttamiseen."
+        iconClass: "fas fa-certificate", // Lisäkoulutus/Kurssit
+        number: "90+", // Arvioitu ECTS-määrä (esim. Kasvatustiede 25 op + Psykologia 25 op = 50 op)
+        text: "opintopistettä täydentävistä yliopisto-opinnoista sekä erilaisia lyhyempiä lisäkursseja, ilmentäen jatkuvaa osaamisen kehittämistä."
     },
+
+   
     {
         iconClass: "fas fa-comments", // VAIN Font Awesome -luokat
         number: "3+",
-        text: "kielen taito avaa ovia ja mahdollistaa sujuvan viestinnän eri tilanteissa."
+        text: "kielitaitoa, jotka avaavat ovia ja varmistavat sujuvan viestinnän monenlaisissa tilanteissa."
+    },
+     {
+        iconClass: "fas fa-handshake", // VAIN Font Awesome -luokat
+        number: "8",
+        text: "erilaista luottamustehtävää useissa organisaatioissa, ilmentäen sitoutumista yhteiskunnalliseen vaikuttamiseen ja yhteistyöhön."
     },
     {
         iconClass: "fas fa-smile-beam", // VAIN Font Awesome -luokat
         number: "\"Oy!\"",
-        text: "...with the poodles already! Koska huumorintaju ja positiivinen asenne tekevät haasteistakin mahdollisuuksia."
+        text: "...with the poodles already! Koska huumorintaju ja positiivinen asenne muuttavat haasteetkin mahdollisuuksiksi."
     }
+    
 ];
 
 // Yksittäinen numerokortti
@@ -62,9 +75,9 @@ const NumbersSection = () => {
         <section className="numbers-section">
             {/* Sisäinen kontaineri keskitystä ja max-leveyttä varten */}
             <div className="numbers-section__container">
-                <h2 className="numbers-section__title">
-                    Minä numeroina – Vesa Nessling
-                </h2>
+                <h1 className="numbers-section__title">
+                    Minä numeroina
+                </h1>
                 {/* Grid-layout korteille */}
                 <div className="numbers-section__grid">
                     {numberData.map((item, index) => (

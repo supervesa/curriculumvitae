@@ -1,11 +1,20 @@
-export default function Header({ 
-  name, 
-  contact, 
-  backgroundImages = [], 
-  profileImage, 
-  description 
+import React from 'react'; // Poistettu useEffect ja useState, koska niitä ei käytetä
+
+// Oletetaan, että Font Awesome on käytössä nuolta varten, tai käytetään SVG:tä / Unicode-merkkiä
+// Jos käytät Font Awesomea React-komponentteina:
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
+
+export default function Header({
+  name,
+  contact,
+  backgroundImages = [],
+  profileImage,
+  description
 }) {
   const [bg1, bg2, bg3] = backgroundImages;
+
+  // Poistettu scrollToContent -funktio
 
   return (
     <header className="header-container">
@@ -19,20 +28,15 @@ export default function Header({
       {/* Valkoinen sisältölaatikko ja profiilikuva */}
       <div className="header-content-wrapper">
         <div className="header-content">
-          {/* Profiilikuva päällekkäin taustan ja laatikon väliin */}
           {profileImage && (
             <div className="profile-image-container">
               <img src={profileImage} alt="Profile" className="profile-image" />
             </div>
           )}
-
-          {/* Nimi ja kuvaus */}
           <div className="info-section">
             <h1 className="header-name">{name}</h1>
             {description && <p className="header-description">{description}</p>}
           </div>
-
-          {/* Yhteystiedot */}
           {(contact?.address || contact?.phone || contact?.email) && (
             <div className="address-box">
               {contact.address && <p>{contact.address}</p>}
@@ -40,8 +44,19 @@ export default function Header({
               {contact.email && <p>{contact.email}</p>}
             </div>
           )}
+
+          {/* UUSI SIJAINTI: Curriculum Vitae -nappula header-contentin sisällä */}
+          <div className="cv-button-container">
+            <button className="cv-button"> {/* Poistettu onClick-handler */}
+              Curriculum Vitae
+              <span className="cv-button-arrow">
+                <i className="fas fa-chevron-down"></i> {/* Font Awesome class */}
+              </span>
+            </button>
+          </div>
         </div>
       </div>
+      {/* Nappula siirretty header-content-wrapperin sisälle */}
     </header>
   );
 }

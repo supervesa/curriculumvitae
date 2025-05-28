@@ -11,7 +11,7 @@ import AdditionalTraining from './components/AdditionalTraining';
 import TrustPositions from './components/TrustPositions';
 import Publications from './components/Publications';
 import LanguageSkills from './components/LanguageSkills';
-import Cover from './components/Cover'; // Oletan, että tämä on olemassa
+import Cover from './components/Cover';
 import cvData from './data/cv.json';
 import './styles/global.css';
 import './App.css';
@@ -44,21 +44,23 @@ export default function App() {
           description={cvData.description2[0]}
         />
     <div className="cv-container">
-      {/* NumbersSection sijoitetaan tähän, Headerin ja WorkExperiencen väliin */}
       <NumbersSection />
 
   
         <WorkExperience jobs={cvData.work_experience || []} />
-        <Education schools={cvData.education || []} />
+   
         <LanguageSkills positions={cvData.languages} />
-        <Publications publications={cvData.publish} />
+        <Education schools={cvData.education || []} />
         <AdditionalTraining trainings={cvData.additional_training} />
-        <TrustPositions positions={cvData.paikat} />
+        <Publications publications={cvData.publish} />
+
+       
         <Skills
           technical_skills={cvData.technical_skills || {}}
           ict_skills={cvData.ict_skills || {}}
           core_competencies={cvData.core_competencies || {}}
         />
+         <TrustPositions positions={cvData.paikat} />
         <Hobbies hobbies={cvData.hobbies || ['Harrastuksia ei määritelty']} />
       </div>
     </>
