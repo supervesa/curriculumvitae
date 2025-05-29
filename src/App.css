@@ -262,8 +262,7 @@ section:nth-child(4) { animation-delay: 0.3s; }
     overflow: hidden; /* Pidetään tämä, jotta pyöristykset toimivat oikein */
     margin-bottom: 2rem;
     border-radius: 12px; /* Tämä pyöristää koko header-kontainerin reunat */
-    /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); // Voidaan poistaa, jos halutaan "litteämpi" kortti */
-    background-color: var(--light-buff); /* Taustaväri header-kontainerille, näkyy "padding"-alueilla */
+
 }
 
 .background-layers {
@@ -919,7 +918,7 @@ p.trustpos-section {
 
     /* Header-tyylit mobiilille */
     .header-container {
-        height: 90%;
+        height: 100vh;
         min-height: 700px;
     }
     .profile-image-container {
@@ -1216,30 +1215,3 @@ p.trustpos-section {
     }
 }
 
-/* Varmistetaan, että header-containerilla on position: relative,
-   jos taustakuvat tai muut elementit käyttävät absoluuttista asemointia sen suhteen.
-   Tämä oli jo aiemmassa CSS:ssäsi, mutta hyvä varmistaa. */
-.header-container {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    margin-bottom: 2rem;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-/* Muista, että .header-content -luokallasi on jo text-align: center;
-   joka auttaa keskittämään .cv-button-containerin, jos se on block-tason elementti
-   tai jos .cv-button-containerilla itsellään on text-align: center ja nappi on inline-flex.
-*/
-.header-content {
-    position: relative;
-    background: rgba(255, 255, 255, 0.52);
-    backdrop-filter: blur(4px);
-    border-radius: 12px;
-    padding: 4rem 2rem 2rem; /* Säädä paddingia tarvittaessa, jotta napille jää tilaa */
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-    text-align: center; /* Tämä keskittää .cv-button-containerin, jos se on block-elementti,
-                           tai .cv-buttonin, jos se on inline-flex ja .cv-button-containerilla on text-align:center */
-}
