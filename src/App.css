@@ -4,6 +4,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
 
 /* === ROOT VARIABLES === */
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
     --off-black: #333333;
     --off-white: #F6F6ED;
@@ -216,11 +220,6 @@ body {
 
 }
 
-.numbers-section-container {
-
-
-}
-
 /* Yleiset section-tyylit (Desktop) */
 section,
 .koulutus-osio,
@@ -256,25 +255,27 @@ section:nth-child(4) { animation-delay: 0.3s; }
 
 /* === COMPONENT/SECTION SPECIFIC STYLES (Desktop) === */
 
-/* --- Header --- */
 .header-container {
     position: relative;
     width: 100%;
     height: 100vh; 
-    overflow: hidden;
+    overflow: hidden; /* Pidetään tämä, jotta pyöristykset toimivat oikein */
     margin-bottom: 2rem;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-
+    border-radius: 12px; /* Tämä pyöristää koko header-kontainerin reunat */
+    /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); // Voidaan poistaa, jos halutaan "litteämpi" kortti */
+    background-color: var(--light-buff); /* Taustaväri header-kontainerille, näkyy "padding"-alueilla */
 }
 
 .background-layers {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    /* Annetaan "padding" ylä- ja alareunoille, mutta ei sivuille */
+    top: 0;    /* Esimerkki "padding" ylhäällä */
+    left: 0;      /* Ei paddingia vasemmalla, ulottuu .header-containerin reunaan */
+    right: 0;     /* Ei paddingia oikealla, ulottuu .header-containerin reunaan */
+    bottom: 20px; /* Esimerkki "padding" alhaalla */
     z-index: 0;
+    border-radius: 10px; /* Pyöristetään itse taustakuvakortin kulmat. Voit säätää tätä tai poistaa, jos haluat sen olevan linjassa .header-containerin kanssa. */
+    overflow: hidden;    /* Tärkeää, jotta animoitu kuva pysyy pyöristysten sisällä */
 }
 
 .background-layer {
@@ -286,6 +287,8 @@ section:nth-child(4) { animation-delay: 0.3s; }
     background-size: cover;
     background-position: center;
     animation: zoomIn 60s ease-in-out infinite alternate;
+    /* Varmistetaan, että kuva ei ylitä pyöristettyjä kulmia, vaikka overflow:hidden on parentilla */
+    border-radius: इन्हेerit; /* Peri vanhemman pyöristys, tai sama kuin .background-layers */
 }
 
 .base-layer {
@@ -308,7 +311,7 @@ section:nth-child(4) { animation-delay: 0.3s; }
 
 .header-content-wrapper {
     position: absolute;
-    bottom: 1.5rem;
+    bottom:3rem;
     left: 50%;
     transform: translateX(-50%);
     width: 90%;
@@ -347,9 +350,9 @@ section:nth-child(4) { animation-delay: 0.3s; }
     margin-top: 1rem;
 }
 
-.header-name {
+h1.header-name {
     margin: 0;
-    font-size: 3rem !important;
+    font-size: 3.0rem !important;
 }
 
 .header-description {
@@ -358,6 +361,7 @@ section:nth-child(4) { animation-delay: 0.3s; }
     line-height: 1.6 !important;
     margin-left: auto;
     margin-right: auto;
+
 }
 
 .address-box { 
@@ -915,7 +919,8 @@ p.trustpos-section {
 
     /* Header-tyylit mobiilille */
     .header-container {
-        height: 100vh;
+        height: 90%;
+        min-height: 700px;
     }
     .profile-image-container {
         top: -50px;
@@ -1191,6 +1196,11 @@ p.trustpos-section {
 .cv-button-arrow {
     display: inline-block; /* Varmistaa, että animaatio toimii oikein */
     animation: bounceArrow 2s infinite ease-in-out;
+}
+
+.cv-button {
+    text-decoration: none;
+
 }
 
 /* Nuolen animaatio ylhäältä alas */

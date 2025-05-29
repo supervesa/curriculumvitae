@@ -45,14 +45,14 @@ export default function Header({
             </div>
           )}
 
-          {/* UUSI SIJAINTI: Curriculum Vitae -nappula header-contentin sisällä */}
           <div className="cv-button-container">
-            <button className="cv-button"> {/* Poistettu onClick-handler */}
+            <a href="#numbers-section-anchor" className="cv-button">
               Curriculum Vitae
               <span className="cv-button-arrow">
-                <i className="fas fa-chevron-down"></i> {/* Font Awesome class */}
+                {/* Varmista, että Font Awesome on käytössä tai korvaa ikonilla */}
+                <i className="fas fa-chevron-down"></i>
               </span>
-            </button>
+            </a>
           </div>
         </div>
       </div>

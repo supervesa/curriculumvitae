@@ -31,8 +31,8 @@ const numberData = [
         text: "tutkintoa maisteritasolle asti, luoden vankan akateemisen perustan ja kyvyn hallita laajoja kokonaisuuksia."
     },
     {
-        iconClass: "fas fa-certificate", // Lisäkoulutus/Kurssit
-        number: "90+", // Arvioitu ECTS-määrä (esim. Kasvatustiede 25 op + Psykologia 25 op = 50 op)
+        iconClass: "fas fa-certificate", 
+        number: "90+",
         text: "opintopistettä täydentävistä yliopisto-opinnoista sekä erilaisia lyhyempiä lisäkursseja, ilmentäen jatkuvaa osaamisen kehittämistä."
     },
 
@@ -45,7 +45,7 @@ const numberData = [
      {
         iconClass: "fas fa-handshake", // VAIN Font Awesome -luokat
         number: "8",
-        text: "erilaista luottamustehtävää useissa organisaatioissa, ilmentäen sitoutumista yhteiskunnalliseen vaikuttamiseen ja yhteistyöhön."
+        text: "useat ja monipuoliset luottamustehtäväni eri organisaatioissa, heijastaen vahvaa haluani yhteiskunnalliseen vaikuttamiseen ja rakentavan yhteistyön edistämiseen."
     },
     {
         iconClass: "fas fa-smile-beam", // VAIN Font Awesome -luokat
@@ -72,8 +72,7 @@ const NumberCard = ({ iconClass, number, text }) => {
 const NumbersSection = () => {
     return (
         // Pääsection-elementti, joka perii globaalit 'section'-tyylit
-        <section className="numbers-section">
-            {/* Sisäinen kontaineri keskitystä ja max-leveyttä varten */}
+     <section id="numbers-section-anchor" className="numbers-section">
             <div className="numbers-section__container">
                 <h1 className="numbers-section__title">
                     Minä numeroina
